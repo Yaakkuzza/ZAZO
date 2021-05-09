@@ -32,6 +32,10 @@ Switzerland için lider Zaza/İran eyaletlerinin 1 manpower yapılması./
 
 Belçika,Hollanda,Norveç,Danimarka,Luxemburg kapitüle olduklarında İngiliz tarafından yutuluyor.
 -----------------------------------------------------------------------------------------------------------------------------------------
+09..05.2021
 
+Çıkartma süresi bir güne düşürüldü
 
+Birliklerin bölgelere göre hızları ayarlandı
 
+Kara birlikleriririn supplyları ayarlandı
