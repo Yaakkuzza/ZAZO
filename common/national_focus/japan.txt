@@ -1444,6 +1444,10 @@
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
 			declare_war_on = { target = ENG type = annex_everything}
+			declare_war_on = { target = PHI type = annex_everything}
+			declare_war_on = { target = RAJ type = annex_everything}
+			declare_war_on = { target = AST type = annex_everything}
+			declare_war_on = { target = MAL type = annex_everything}
 			declare_war_on = { target = USA type = annex_everything}
 			
 			hidden_effect = {
