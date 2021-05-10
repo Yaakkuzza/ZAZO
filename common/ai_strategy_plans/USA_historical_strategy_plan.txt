@@ -83,6 +83,7 @@ USA_historical_plan = {
 		USA_military_construction
 		USA_two_ocean_navy_act
 		USA_selective_training_act
+		USA_destroyers_for_bases
 		#1941
 		USA_maritime_commission
 		USA_lend_lease_act
@@ -100,6 +101,10 @@ USA_historical_plan = {
 		USA_build_the_pentagon
 		USA_army_of_the_united_states
 		USA_womens_armed_service_integration_act
+	}
+
+	focus_factors = {
+		USA_suspend_the_presecution = 0 # well done, not medium rare
 	}
 
 	research = {

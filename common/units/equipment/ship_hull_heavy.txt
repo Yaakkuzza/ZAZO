@@ -123,8 +123,8 @@ equipments = {
 		
 		build_cost_ic = 3300
 		resources = {
-			steel = 4
-			chromium = 4
+			steel = 1
+			chromium = 1
 		}
 
 		manpower = 4000
@@ -182,8 +182,8 @@ equipments = {
 		reliability = 0.65
 		build_cost_ic = 3000
 		resources = {
-			steel = 4
-			chromium = 4
+			steel = 1
+			chromium = 1
 		}
 
 		manpower = 3200
@@ -309,14 +309,7 @@ equipments = {
 					ship_heavy_battery
 				}
 			}
-			mid_2_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_secondaries
-					ship_airplane_launcher
-				}
-			}
+			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -341,8 +334,8 @@ equipments = {
 		build_cost_ic = 3400
 		resources = {
 			#oil = 1
-			steel = 4
-			chromium = 4
+			steel = 1
+			chromium = 1
 		}
 
 		manpower = 5200
@@ -379,22 +372,8 @@ equipments = {
 					ship_heavy_battery
 				}
 			}
-			mid_2_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_secondaries
-					ship_airplane_launcher
-				}
-			}
-			mid_3_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_secondaries
-					ship_airplane_launcher
-				}
-			}
+			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -419,8 +398,8 @@ equipments = {
 		build_cost_ic = 3500
 		resources = {
 			#oil = 1
-			steel = 4
-			chromium = 4
+			steel = 1
+			chromium = 1
 		}
 
 		manpower = 6000
@@ -457,22 +436,8 @@ equipments = {
 					ship_heavy_battery
 				}
 			}
-			mid_2_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_secondaries
-					ship_airplane_launcher
-				}
-			}
-			mid_3_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-					ship_secondaries
-					ship_airplane_launcher
-				}
-			}
+			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -497,8 +462,8 @@ equipments = {
 		build_cost_ic = 3600
 		resources = {
 			#oil = 1
-			steel = 4
-			chromium = 4
+			steel = 1
+			chromium = 1
 		}
 
 		manpower = 6000
@@ -591,8 +556,8 @@ equipments = {
 		reliability = 0.80
 		build_cost_ic = 5500
 		resources = {
-			steel = 4
-			chromium = 4
+			steel = 1
+			chromium = 1
 		}
 		manpower = 9000
 	}
@@ -698,7 +663,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 3
-			chromium = 4
+			chromium = 1
 		}
 
 		manpower = 6000
@@ -752,7 +717,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			steel = 4
-			chromium = 4
+			chromium = 1
 		}
 		manpower = 6600
 		
@@ -973,7 +938,7 @@ equipments = {
 		
 		naval_range = 4000
 		
-		max_strength = 370
+		max_strength = 600
 		
 
 		fuel_consumption = 93
@@ -982,7 +947,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			steel = 4
-			chromium = 4
+			chromium = 1
 		}
 		manpower = 9000
 	}
@@ -1156,7 +1121,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 3
-			chromium = 4
+			chromium = 1
 		}
 		
 		manpower = 3500
@@ -1211,7 +1176,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 4
-			chromium = 4
+			chromium = 1
 		}
 		manpower = 4000
 	}

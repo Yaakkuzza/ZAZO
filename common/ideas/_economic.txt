@@ -439,7 +439,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.15
+				consumer_goods_factor = 0.10
+				conscription = -0.03
 				production_speed_arms_factory_factor = 0.3
 				conversion_cost_civ_to_mil_factor= -0.3
 				conversion_cost_mil_to_civ_factor = -0.3
@@ -456,7 +457,6 @@ ideas = {
 		free_trade = {
 
 			available = {
-				NOT = { original_tag = SOV }
 				if = {
 					limit = {
 						original_tag = SPR
@@ -470,7 +470,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				min_export = 0.75
+				min_export = 0.8
 				industrial_capacity_factory = 0.15
 				industrial_capacity_dockyard = 0.15
 				production_speed_buildings_factor = 0.15
@@ -513,7 +513,7 @@ ideas = {
 		export_focus = {
 			
 			available = {
-				NOT = { original_tag = SOV }
+
 				if = {
 					limit = {
 						original_tag = CHI
@@ -572,7 +572,6 @@ ideas = {
 		
 		limited_exports = {
 			available = {
-			NOT = { original_tag = SOV }
 				OR = {
 					AND = {
 						has_government = democratic
@@ -659,6 +658,7 @@ ideas = {
 			
 			
 			available = {
+				has_war = yes
 				OR = { 
 					has_government = fascism
 					has_government = communism

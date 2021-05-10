@@ -83,6 +83,13 @@ ideas = {
 					}
 					has_completed_focus = CAN_commit_to_the_war
 				}
+				if = {
+					limit = {
+						original_tag = RAJ
+						has_dlc = "Together for Victory"
+					}
+					is_subject = no
+				}
 
 				if = {
 					limit = {
@@ -172,6 +179,13 @@ ideas = {
 					has_completed_focus = CAN_commit_to_the_war
 					has_completed_focus = CAN_if_day
 				}
+				if = {
+					limit = {
+						original_tag = RAJ
+						has_dlc = "Together for Victory"
+					}
+					is_subject = no
+				}
 
 				if = {
 					limit = {
@@ -231,7 +245,7 @@ ideas = {
 			level = 4
 			
 			modifier = {
-				conscription = 0.04
+				conscription = 0.05
 				#industrial_capacity_factory = -0.1
 				#production_speed_buildings_factor = -0.1
 				training_time_factor = 0.1
@@ -282,6 +296,13 @@ ideas = {
 						has_completed_focus = CAN_compromise_with_quebec
 						has_completed_focus = CAN_forced_quebec_conscription
 					}
+				}
+				if = {
+					limit = {
+						original_tag = RAJ
+						has_dlc = "Together for Victory"
+					}
+					is_subject = no
 				}
 
 				if = {
@@ -361,7 +382,7 @@ ideas = {
 			level = 3
 
 			modifier = {
-				conscription = 0.08
+				conscription = 0.1
 				industrial_capacity_factory = -0.1
 				industrial_capacity_dockyard = -0.1
 				production_speed_buildings_factor = -0.1
@@ -407,6 +428,13 @@ ideas = {
 						has_completed_focus = CAN_compromise_with_quebec
 						has_completed_focus = CAN_forced_quebec_conscription
 					}					
+				}
+				if = {
+					limit = {
+						original_tag = RAJ
+						has_dlc = "Together for Victory"
+					}
+					is_subject = no
 				}
 
 				if = {
@@ -478,12 +506,12 @@ ideas = {
 			level = 2
 			
 			modifier = {
-				conscription = 0.15
-				industrial_capacity_factory = -0.2
-				industrial_capacity_dockyard = -0.2
-				production_speed_buildings_factor = -0.2
+				conscription = 0.2
+				industrial_capacity_factory = -0.3
+				industrial_capacity_dockyard = -0.3
+				production_speed_buildings_factor = -0.3
 				#XP from reinforcement penalty (small)
-				training_time_factor = 0.2
+				training_time_factor = 0.3
 			}
 			
 			cancel_if_invalid = no
@@ -524,6 +552,13 @@ ideas = {
 						has_completed_focus = CAN_compromise_with_quebec
 						has_completed_focus = CAN_forced_quebec_conscription
 					}
+				}
+				if = {
+					limit = {
+						original_tag = RAJ
+						has_dlc = "Together for Victory"
+					}
+					is_subject = no
 				}
 
 				if = {
@@ -582,10 +617,10 @@ ideas = {
 
 			modifier = {
 				conscription = 0.25
-				industrial_capacity_factory = -0.3
-				industrial_capacity_dockyard = -0.3
-				production_speed_buildings_factor = -0.3
-				training_time_factor = 0.3
+				industrial_capacity_factory = -0.4
+				industrial_capacity_dockyard = -0.4
+				production_speed_buildings_factor = -0.4
+				training_time_factor = 0.5
 			}
 			
 			cancel_if_invalid = no

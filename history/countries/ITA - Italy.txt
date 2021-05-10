@@ -27,13 +27,6 @@ add_ideas = {
 	set_garrison_strength = 1.0
 }
 
-271 = {
-	start_resistance = yes
-	set_compliance = 10
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -112,6 +105,19 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	add_ideas = MTG_naval_treaty_adherent
+}
+
+# DIPLOMACY / WAR 36
+if = {
+	limit = {
+		has_start_date < 1936.01.02
+	}
+
+	declare_war_on = {
+		target = ETH
+		type = annex_everything
+	}
+	give_guarantee = ALB
 }
 
 1939.1.1 = {

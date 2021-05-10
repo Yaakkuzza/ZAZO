@@ -58,7 +58,7 @@ technologies = {
 	interwar_artillery = {
 
 		artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		artillery_brigade = {
 			soft_attack = 0.1
@@ -159,7 +159,7 @@ technologies = {
 	artillery2 = {
 
 		artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		artillery_brigade = {
 			soft_attack = 0.1
@@ -214,7 +214,7 @@ technologies = {
 	artillery3 = {
 
 		artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		artillery_brigade = {
 			soft_attack = 0.1
@@ -310,7 +310,7 @@ technologies = {
 	artillery5 = {
 
 		artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		artillery_brigade = {
 			soft_attack = 0.1
@@ -414,16 +414,16 @@ technologies = {
 	rocket_artillery2 = {
 
 		rocket_artillery = {
-			soft_attack = 0.1
+			soft_attack = 0.15
 		}
 		rocket_artillery_brigade = {
-			soft_attack = 0.2
+			soft_attack = 0.15
 		}
 		mot_rocket_artillery_brigade = {
-			soft_attack = 0.2
+			soft_attack = 0.15
 		}
 		motorized_rocket_brigade = {
-			soft_attack = 0.2
+			soft_attack = 0.15
 		}
 		
 		path = {
@@ -457,16 +457,16 @@ technologies = {
 	rocket_artillery3 = {
 
 		rocket_artillery = {
-			soft_attack = 0.1
+			soft_attack = 0.15
 		}
 		rocket_artillery_brigade = {
-			soft_attack = 0.2
+			soft_attack = 0.15
 		}
 		mot_rocket_artillery_brigade = {
-			soft_attack = 0.2
+			soft_attack = 0.15
 		}
 		motorized_rocket_brigade = {
-			soft_attack = 0.2
+			soft_attack = 0.15
 		}
 
 		path = {
@@ -503,7 +503,7 @@ technologies = {
 			rocket_artillery_equipment_2
 		}
 		motorized_rocket_brigade = {
-			soft_attack = 0.2
+			soft_attack = 0.3
 		}
 
 		#rocket_artillery = {
@@ -605,7 +605,7 @@ technologies = {
 	antiair1 = {
 
 		anti_air = {
-			air_attack = 0.05
+			air_attack = 0.1
 		}
 		anti_air_brigade = {
 			air_attack = 0.1
@@ -703,7 +703,7 @@ technologies = {
 	antiair3 = {
 
 		anti_air = {
-			air_attack = 0.05
+			air_attack = 0.1
 		}
 		anti_air_brigade = {
 			air_attack = 0.1
@@ -753,7 +753,7 @@ technologies = {
 	antiair4 = {
 
 		anti_air = {
-			air_attack = 0.05
+			air_attack = 0.1
 		}
 		anti_air_brigade = {
 			air_attack = 0.1
@@ -925,16 +925,16 @@ technologies = {
 	antitank1 = {
 
 		anti_tank = {
-			hard_attack = 0.05
-			ap_attack = 0.05
+			hard_attack = 0.1
+			ap_attack = 0.2
 		}
 		anti_tank_brigade = {
 			hard_attack = 0.1
-			ap_attack = 0.1
+			ap_attack = 0.2
 		}
 		mot_anti_tank_brigade = {
 			hard_attack = 0.1
-			ap_attack = 0.1
+			ap_attack = 0.2
 		}
 		
 		path = {
@@ -1072,8 +1072,8 @@ technologies = {
 	antitank3 = {
 
 		anti_tank = {
-			hard_attack = 0.05
-			ap_attack = 0.05
+			hard_attack = 0.1
+			ap_attack = 0.1
 		}
 		anti_tank_brigade = {
 			hard_attack = 0.1
@@ -1146,8 +1146,8 @@ technologies = {
 	antitank4 = {
 
 		anti_tank = {
-			hard_attack = 0.05
-			ap_attack = 0.05
+			hard_attack = 0.1
+			ap_attack = 0.1
 		}
 		anti_tank_brigade = {
 			hard_attack = 0.1

@@ -1688,9 +1688,13 @@ foreign_politics = {
 		}
 
         complete_effect = {
+			FROM = { country_event = { id = generic.14 hours = 6 } }
+			hidden_effect = {
+				FROM = { set_country_flag = object_attache_going_on }
+			}
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 1
 		}
 	}
 }

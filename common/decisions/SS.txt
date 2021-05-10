@@ -31,13 +31,13 @@ SS_recruitment = {
 				has_country_leader = { name = "Heinrich Himmler" }
 			}
 			OR = {
-				NZL = {
+				DEN = {
 					is_subject_of = GER
 				}
-				has_war_with = NZL
+				has_war_with = DEN
 				AND = {
 					has_war = yes
-					NZL = {
+					DEN = {
 						exists = no
 					}
 				}
@@ -101,11 +101,11 @@ SS_recruitment = {
 				has_country_leader = { name = "Heinrich Himmler" }
 			}
 			OR = {
-				NZL = {
+				NOR = {
 					is_subject_of = GER
 				}
-				has_war_with = NZL
-				NZL = { exists = no }
+				has_war_with = NOR
+				NOR = { exists = no }
 			}
 		}
 
@@ -161,11 +161,11 @@ SS_recruitment = {
 				has_country_leader = { name = "Heinrich Himmler" }
 			}
 			OR = {
-				NZL = {
+				HOL = {
 					is_subject_of = GER
 				}
-				has_war_with = NZL
-				NZL = { exists = no }
+				has_war_with = HOL
+				HOL = { exists = no }
 			}
 		}
 
@@ -210,11 +210,11 @@ SS_recruitment = {
 				has_country_leader = { name = "Heinrich Himmler" }
 			}
 			OR = {
-				NZL = {
+				BEL = {
 					is_subject_of = GER
 				}
-				has_war_with = NZL
-				NZL = { exists = no }
+				has_war_with = BEL
+				BEL = { exists = no }
 			}
 		}
 
@@ -275,11 +275,11 @@ SS_recruitment = {
 				has_country_leader = { name = "Heinrich Himmler" }
 			}
 			OR = {
-				NZL = {
+				FRA = {
 					is_subject_of = GER
 				}
-				has_war_with = NZL
-				NZL = { exists = no }
+				has_war_with = FRA
+				FRA = { exists = no }
 			}
 		}
 
@@ -324,13 +324,13 @@ SS_recruitment = {
 				has_country_leader = { name = "Heinrich Himmler" }
 			}
 			OR = {
-				NZL = {
+				EST = {
 					is_subject_of = GER
 				}
-				has_war_with = NZL
+				has_war_with = EST
 				AND = {
 					has_war = yes
-					NZL = {
+					EST = {
 						exists = no
 					}
 				}
@@ -378,13 +378,13 @@ SS_recruitment = {
 				has_country_leader = { name = "Heinrich Himmler" }
 			}
 			OR = {
-				NZL = {
+				LAT = {
 					is_subject_of = GER
 				}
-				has_war_with = NZL
+				has_war_with = LAT
 				AND = {
 					has_war = yes
-					NZL = {
+					LAT = {
 						exists = no
 					}
 				}
@@ -433,13 +433,13 @@ SS_recruitment = {
 				has_country_leader = { name = "Heinrich Himmler" }
 			}
 			OR = {
-				NZL = {
+				LIT = {
 					is_subject_of = GER
 				}
-				has_war_with = NZL
+				has_war_with = LIT
 				AND = {
 					has_war = yes
-					NZL = {
+					LIT = {
 						exists = no
 					}
 				}
@@ -503,13 +503,13 @@ SS_recruitment = {
 				has_country_leader = { name = "Heinrich Himmler" }
 			}
 			OR = {
-				NZL = {
+				ENG = {
 					is_subject_of = GER
 				}
-				has_war_with = NZL
+				has_war_with = ENG
 				AND = {
 					has_war = yes
-					NZL = {
+					ENG = {
 						exists = no
 					}
 				}
@@ -627,13 +627,13 @@ SS_recruitment = {
 				has_country_leader = { name = "Heinrich Himmler" }
 			}
 			OR = {
-				NZL = {
+				SWE = {
 					is_subject_of = GER
 				}
-				has_war_with = NZL
+				has_war_with = SWE
 				AND = {
 					has_war = yes
-					NZL = {
+					SWE = {
 						exists = no
 					}
 				}
@@ -668,11 +668,11 @@ SS_demands = {
 		fire_only_once = yes
 		complete_effect = {
 			subtract_from_variable = { var = SS_anger value = 10 }
-			add_to_variable = { var = wehrmacht_anger value = 5 } #shitty NZLtle upstart
+			add_to_variable = { var = wehrmacht_anger value = 5 } #shitty little upstart
 			create_field_marshal = {
 				name = "Heinrich Himmler"
 				picture = "Portrait_Germany_Heinrich_Himmler.dds"
-				traits = { poNZLically_connected }
+				traits = { politically_connected }
 				skill = 1
 				attack_skill = 1
 				defense_skill = 1

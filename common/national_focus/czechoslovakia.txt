@@ -1265,7 +1265,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 0
+			factor = 90
 		}
 
 		available = {
@@ -2055,7 +2055,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 0
+			factor = 90
 		}
 
 		available = {

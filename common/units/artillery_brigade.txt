@@ -24,11 +24,11 @@ sub_units = {
 
 		manpower = 500
 		need = {
-			artillery_equipment = 40
+			artillery_equipment = 36
 		}
 		
-		max_strength = 1
-		max_organisation = 1
+		max_strength = 0.6
+		max_organisation = 0
 		default_morale = 0.1
 		training_time = 120
 		weight = 0.5
@@ -39,29 +39,38 @@ sub_units = {
 		
 		forest = {
 			attack = -0.2
-			movement = -0.1
+			movement = -0.2
 		}
+
 		hills = {
-			attack = -0.3
-			movement = -0.15
+			movement = -0.05
 		}
+
 		mountain = {
-			attack = -0.5
-			movement = -0.25
+			movement = -0.2
 		}
+
 		jungle = {
-			attack = -0.3
-			movement = -0.15
+			attack = -0.25
+			movement = -0.2
 		}
+
 		marsh = {
-			attack = -0.3
-			movement = -0.15
+			attack = -0.2
+			movement = -0.3
 		}
-		urban = {
-			attack = -0.4
+
+		fort = {
+			attack = 0.1
 		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
 		amphibious = {
-			attack = -0.8
+			attack = -0.4
 		}
 	}
 
@@ -89,12 +98,12 @@ sub_units = {
 		transport = motorized_equipment
 		manpower = 500
 		need = {
-			artillery_equipment = 40
+			artillery_equipment = 36
 			motorized_equipment = 50
 		}
 		
-		max_strength = 1
-		max_organisation = 1
+		max_strength = 0.6
+		max_organisation = 0
 		default_morale = 0.1
 		training_time = 120
 		weight = 0.5
@@ -102,29 +111,38 @@ sub_units = {
 		
 		forest = {
 			attack = -0.2
-			movement = -0.1
+			movement = -0.5
 		}
+
 		hills = {
-			attack = -0.3
-			movement = -0.15
+			movement = -0.05
 		}
+
 		mountain = {
-			attack = -0.5
-			movement = -0.25
+			movement = -0.2
 		}
+
 		jungle = {
-			attack = -0.3
-			movement = -0.15
+			attack = -0.25
+			movement = -0.5
 		}
+
 		marsh = {
-			attack = -0.3
-			movement = -0.15
+			attack = -0.2
+			movement = -0.3
 		}
-		urban = {
-			attack = -0.4
+
+		fort = {
+			attack = 0.1
 		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
 		amphibious = {
-			attack = -0.8
+			attack = -0.4
 		}
 	}
 	
@@ -151,13 +169,13 @@ sub_units = {
 		combat_width = 3
 
 		need = {
-			rocket_artillery_equipment = 40
+			rocket_artillery_equipment = 36
 		}
 		
 		manpower = 500
-		max_organisation = 1
+		max_organisation = 0
 		default_morale = 0.1
-		max_strength = 1
+		max_strength = 0.6
 		training_time = 120
 		weight = 0.5
 
@@ -165,29 +183,38 @@ sub_units = {
 		
 		forest = {
 			attack = -0.2
-			movement = -0.1
+			movement = -0.2
 		}
+
 		hills = {
-			attack = -0.3
-			movement = -0.15
+			movement = -0.05
 		}
+
 		mountain = {
-			attack = -0.5
-			movement = -0.25
+			movement = -0.2
 		}
+
 		jungle = {
-			attack = -0.3
-			movement = -0.15
+			attack = -0.25
+			movement = -0.2
 		}
+
 		marsh = {
-			attack = -0.3
-			movement = -0.15
+			attack = -0.2
+			movement = -0.3
 		}
-		urban = {
-			attack = -0.4
+
+		fort = {
+			attack = 0.1
 		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
 		amphibious = {
-			attack = -0.8
+			attack = -0.4
 		}
 	}
 
@@ -214,14 +241,14 @@ sub_units = {
 		combat_width = 3
 		transport = motorized_equipment
 		need = {
-			rocket_artillery_equipment = 40
+			rocket_artillery_equipment = 36
 			motorized_equipment = 50
 		}
 		
 		manpower = 500
-		max_organisation = 1
+		max_organisation = 0
 		default_morale = 0.1
-		max_strength = 1
+		max_strength = 0.6
 		training_time = 120
 		weight = 0.5
 
@@ -229,29 +256,38 @@ sub_units = {
 		
 		forest = {
 			attack = -0.2
-			movement = -0.1
+			movement = -0.5
 		}
+
 		hills = {
-			attack = -0.3
-			movement = -0.15
+			movement = -0.05
 		}
+
 		mountain = {
-			attack = -0.5
-			movement = -0.25
+			movement = -0.2
 		}
+
 		jungle = {
-			attack = -0.3
-			movement = -0.15
+			attack = -0.25
+			movement = -0.5
 		}
+
 		marsh = {
-			attack = -0.3
-			movement = -0.15
+			attack = -0.2
+			movement = -0.3
 		}
-		urban = {
-			attack = -0.4
+
+		fort = {
+			attack = 0.1
 		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
 		amphibious = {
-			attack = -0.8
+			attack = -0.4
 		}
 	}
 	
@@ -279,45 +315,54 @@ sub_units = {
 		combat_width = 3
 
 		need = {
-			motorized_rocket_equipment = 40
-			motorized_equipment = 50
+			motorized_rocket_equipment = 20
+			motorized_equipment = 15
 		}
 		
 		manpower = 500
-		max_organisation = 1
+		max_organisation = 0
 		default_morale = 0.1
-		max_strength = 1
+		max_strength = 0.6
 		training_time = 120
 		weight = 0.5
 
 		
-		supply_consumption = 0.3
+		supply_consumption = 0.28
 		
 		forest = {
-			attack = -0.2
-			movement = -0.1
+			attack = -0.1
+			movement = -0.5
 		}
+
 		hills = {
-			attack = -0.3
-			movement = -0.15
+			movement = -0.05
 		}
+
 		mountain = {
-			attack = -0.5
-			movement = -0.25
+			movement = -0.2
 		}
+
 		jungle = {
-			attack = -0.3
-			movement = -0.15
+			attack = -0.25
+			movement = -0.5
 		}
+
 		marsh = {
-			attack = -0.3
-			movement = -0.15
+			attack = -0.2
+			movement = -0.5
 		}
-		urban = {
-			attack = -0.4
+
+		fort = {
+			attack = 0.1
 		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
 		amphibious = {
-			attack = -0.8
+			attack = -0.4
 		}
 	}
 }
