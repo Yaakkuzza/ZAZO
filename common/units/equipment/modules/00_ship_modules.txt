@@ -1657,7 +1657,7 @@ equipment_modules = {
 		gfx = ship_mine_layer_sub
 		
 		add_stats = {
-			mines_planting = 2
+			mines_planting = 1
 			build_cost_ic = 90
 		}
 	}
@@ -1676,7 +1676,7 @@ equipment_modules = {
 		gfx = ship_mine_sweeper
 		
 		add_stats = {
-			mines_sweeping = 1
+			mines_sweeping = 4
 			build_cost_ic = 30
 		}
 

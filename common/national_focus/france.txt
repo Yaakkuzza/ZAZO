@@ -84,7 +84,7 @@
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			random_owned_state = {
+			461 = {
 				limit = { 
 					is_core_of = ROOT 
 					infrastructure < 9
@@ -97,7 +97,7 @@
 				}
 				set_state_flag = FRA_autoroutes_target
 			}
-			random_owned_state = {
+			462 = {
 				limit = { 
 					is_core_of = ROOT 
 					infrastructure < 9
@@ -110,7 +110,7 @@
 				}
 				set_state_flag = FRA_autoroutes_target
 			}
-			random_owned_state = {
+			513 = {
 				limit = { 
 					is_core_of = ROOT 
 					infrastructure < 9
@@ -123,7 +123,7 @@
 				}
 				set_state_flag = FRA_autoroutes_target
 			}
-			random_owned_state = {
+			665 = {
 				limit = { 
 					is_core_of = ROOT 
 					infrastructure < 9
@@ -207,30 +207,30 @@
 				limit = { 
 					has_state_flag = FRA_industrial_expansion_target
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 6
 			}
 		}
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			random_owned_state = {
+			458 = {
 				limit = { 
 					is_core_of = ROOT 
 					NOT = {
 						has_state_flag = FRA_industrial_expansion_target
 					}	
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 6
 				set_state_flag = FRA_industrial_expansion_target
 			}
-			random_owned_state = {
+			665 = {
 				limit = { 
 					is_core_of = ROOT 	
 					NOT = {
 						has_state_flag = FRA_industrial_expansion_target
 					}	
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 6
 				set_state_flag = FRA_industrial_expansion_target
 			}
 		}
@@ -264,7 +264,7 @@
 				}
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -280,7 +280,7 @@
 				}
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -316,7 +316,7 @@
 				}
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -335,7 +335,7 @@
 				}
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}				
@@ -391,48 +391,25 @@
 					is_owned_or_subject_trigger = yes	
 					OR = {	
 						has_state_flag = FRA_industrial_expansion_target
-						has_state_flag = FRA_colonial_industry_target
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 6
 			}
 		}
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			random_state = {
-				limit = { 
-					OR = {
-						state = 459
-						state = 460
-						state = 513
-					}
-					NOT  = {
-						has_state_flag = FRA_industrial_expansion_target
-						has_state_flag = FRA_colonial_industry_target
-					}
-					is_owned_or_subject_trigger = yes	
-				}
-				add_extra_state_shared_building_slots = 2
+			459 = {
+				add_extra_state_shared_building_slots = 6
 				set_state_flag = FRA_industrial_expansion_target
-				set_state_flag = FRA_colonial_industry_target
 			}
-			random_state = {
-				limit = { 
-					OR = {
-						state = 459
-						state = 460
-						state = 513
-					}
-					is_owned_or_subject_trigger = yes
-					NOT  = {
-						has_state_flag = FRA_industrial_expansion_target
-						has_state_flag = FRA_colonial_industry_target
-					}		
-				}
-				add_extra_state_shared_building_slots = 2
+			460 = {
+				add_extra_state_shared_building_slots = 6
 				set_state_flag = FRA_industrial_expansion_target
-				set_state_flag = FRA_colonial_industry_target
+			}
+			513 = {
+				add_extra_state_shared_building_slots = 6
+				set_state_flag = FRA_industrial_expansion_target
 			}
 		}
 	}	
@@ -501,14 +478,8 @@
 		available = {
 			any_state = {
 				OR = {
-					state = 272
-					state = 780
-					state = 556
-					state = 779
-					state = 778
-					state = 781
-					state = 776
-					state = 777
+					state = 461
+					state = 462
 				}	
 				is_owned_or_subject_trigger = yes
 			}
@@ -524,24 +495,12 @@
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			random_state = {
-				limit = { 
-					OR = {
-						state = 272
-						state = 780
-						state = 556
-						state = 779
-						state = 778
-						state = 781
-						state = 776
-						state = 777
-					}	
-					OWNER = { is_owned_or_subject_trigger = yes }
-					NOT = {
-						has_state_flag = FRA_colonial_industry_target
-					}
-				}
-				add_extra_state_shared_building_slots = 2
+			461 = {
+				add_extra_state_shared_building_slots = 6
+				set_state_flag = FRA_colonial_industry_target
+			}
+			462 = {
+				add_extra_state_shared_building_slots = 6
 				set_state_flag = FRA_colonial_industry_target
 			}
 		}
@@ -590,7 +549,7 @@
 						has_state_flag = FRA_colonial_industry_target
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 6
 				set_state_flag = FRA_colonial_industry_target
 			}
 		}
@@ -626,20 +585,20 @@
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			random_state = {
-				limit = { 
-					OR = {
-						state = 677
-						state = 680
-						state = 554
-						state = 553
-					}
-					OWNER = { is_owned_or_subject_trigger = yes }	
-					NOT = {
-						has_state_flag = FRA_colonial_industry_target
-					}
-				}
-				add_extra_state_shared_building_slots = 2
+			677 = {
+				add_extra_state_shared_building_slots = 6
+				set_state_flag = FRA_colonial_industry_target
+			}
+			680 = {
+				add_extra_state_shared_building_slots = 6
+				set_state_flag = FRA_colonial_industry_target
+			}
+			554 = {
+				add_extra_state_shared_building_slots = 6
+				set_state_flag = FRA_colonial_industry_target
+			}
+			553 = {
+				add_extra_state_shared_building_slots = 6
 				set_state_flag = FRA_colonial_industry_target
 			}
 		}
@@ -674,7 +633,7 @@
 				}
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -2909,7 +2868,7 @@
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 					type = arms_factory
 					level = 2
@@ -2926,7 +2885,7 @@
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 					type = arms_factory
 					level = 2
@@ -3063,7 +3022,7 @@
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 					type = arms_factory
 					level = 2
@@ -3080,7 +3039,7 @@
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 					type = arms_factory
 					level = 2
@@ -3097,7 +3056,7 @@
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -3114,7 +3073,7 @@
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -3662,7 +3621,7 @@
 							# include_locked = yes
 						# }
 					# }
-					# add_extra_state_shared_building_slots = 2
+					# add_extra_state_shared_building_slots = 6
 					# add_building_construction = {
 						# type = arms_factory
 						# level = 2
@@ -6822,7 +6781,7 @@
 					# add_to_temp_variable = { state_num_factory = building_level@dockyard }
 					# check_variable = { state_num_factory > 7 }
 				# }
-				# add_extra_state_shared_building_slots = 2
+				# add_extra_state_shared_building_slots = 6
 			# }
 		# }
 	# }

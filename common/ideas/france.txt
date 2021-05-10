@@ -71,8 +71,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				industrial_capacity_factory = -0.2
-				industrial_capacity_dockyard = -0.2
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
 			}
 		}
 		FRA_political_violence = {
@@ -1106,9 +1106,6 @@ ideas = {
 
 			picture = generic_victors_of_ww1
 			
-			research_bonus = {
-				land_doctrine = -0.75
-			}
 			modifier = {
 				conscription = -0.003
 				war_support_factor = -0.05
@@ -1193,7 +1190,7 @@ ideas = {
 			picture = generic_wall_line
 			
 			modifier = {
-				planning_speed = -0.25
+				army_org_factor = 0.5
 			}
 		}
 
