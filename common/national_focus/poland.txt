@@ -1653,7 +1653,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 10
+			factor = 0
 		}
 
 		available_if_capitulated = yes
@@ -1912,7 +1912,7 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 10
+			factor = 0
 		}
 
 		available_if_capitulated = yes

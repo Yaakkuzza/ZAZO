@@ -1765,10 +1765,6 @@ ideas = {
 					has_country_flag = GER_reinstated_nazi_leadership
 				}
 			}
-
-			on_add = {
-				custom_effect_tooltip = GER_SS_himmler_recruit
-			}
 			
 			traits = { prince_of_terror }
 		}

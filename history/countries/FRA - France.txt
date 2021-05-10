@@ -251,9 +251,6 @@ add_ideas = {
 	FRA_inefficient_economy_2
 }
 
-give_guarantee = CZE
-give_guarantee = YUG
-give_guarantee = ROM
 
 #Order matters here Daladier will start as leaders because added last
 create_country_leader = {

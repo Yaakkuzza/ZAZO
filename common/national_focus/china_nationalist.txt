@@ -9,7 +9,7 @@
 			has_dlc = "Waking the Tiger"
 		}
 	}
-	
+	 
 
 	default = no
 
@@ -867,13 +867,11 @@
 				create_wargoal = {
 					type = annex_everything
 					target = MAN
-					expire = 0
 				}
 				else = {
 					create_wargoal = {
 						type = annex_everything
 						target = JAP
-						expire = 0
 					}	
 				}
 			}
@@ -951,7 +949,6 @@
 				create_wargoal = {
 					type = annex_everything
 					target = SIK
-					expire = 0
 				}
 			}
 			if = {		
@@ -963,7 +960,6 @@
 				create_wargoal = {
 					type = annex_everything
 					target = TIB
-					expire = 0
 				}
 			}
 			if = {
@@ -976,7 +972,6 @@
 					create_wargoal = {
 						type = annex_everything
 						target = PRC
-						expire = 0
 					}
 				}
 			}
@@ -990,7 +985,6 @@
 					create_wargoal = {
 						type = annex_everything
 						target = YUN
-						expire = 0
 					}
 				}
 			}
@@ -1004,7 +998,6 @@
 					create_wargoal = {
 						type = annex_everything
 						target = SHX
-						expire = 0
 					}
 				}
 			}
@@ -1018,7 +1011,6 @@
 					create_wargoal = {
 						type = annex_everything
 						target = GXC
-						expire = 0
 					}
 				}
 			}
@@ -1032,7 +1024,6 @@
 					create_wargoal = {
 						type = annex_everything
 						target = XSM
-						expire = 0
 					}
 				}
 			}

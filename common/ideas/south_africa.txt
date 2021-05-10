@@ -460,8 +460,9 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.4
+				production_speed_buildings_factor = 0.4
 			}
-
 		}
 
 		SAF_joint_air_training_scheme = {

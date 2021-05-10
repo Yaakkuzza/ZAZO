@@ -6,7 +6,7 @@
 #		x = -3
 #		y = 0
 #		relative_position_id = 
-#
+# 
 #		cost = 10
 #
 #		ai_will_do = {
@@ -48,7 +48,7 @@ shared_focus = {
 		}
 	}
 	offset = {
-		x = -16
+		x = -18
 		y = 0
 		trigger = {
 			 tag = MAN 
@@ -1724,7 +1724,6 @@ shared_focus = {
 				create_wargoal = {
 					type = annex_everything
 					target = PREV
-					expire = 0
 				}
 			}
 		}
@@ -1810,7 +1809,6 @@ shared_focus = {
 				create_wargoal = {
 					type = take_state_focus
 					target = TIB
-					expire = 0
 					generator = { 322 }
 				}
 			}
@@ -1819,7 +1817,6 @@ shared_focus = {
 			create_wargoal = {
 				type = annex_everything
 				target = TIB				
-				expire = 0
 			}
 		}
 	}
@@ -1905,7 +1902,6 @@ shared_focus = {
 				create_wargoal = {
 					type = take_state_focus
 					target = MON
-					expire = 0
 					generator = { 330 }
 				}
 			}
@@ -1914,7 +1910,6 @@ shared_focus = {
 			create_wargoal = {
 				type = annex_everything
 				target = MON				
-				expire = 0
 			}
 		}
 	}
@@ -2065,7 +2060,6 @@ shared_focus = {
 						create_wargoal = {
 							type = take_state_focus
 							target = PREV
-							expire = 0
 							generator = { 527 }
 						}
 					}
@@ -2082,7 +2076,6 @@ shared_focus = {
 							create_wargoal = {
 								type = take_state_focus
 								target = PREV
-								expire = 0
 								generator = { 525 }
 							}
 						}
@@ -2261,7 +2254,6 @@ shared_focus = {
 				create_wargoal = {
 					type = take_state_focus
 					target = PREV
-					expire = 0
 					generator = { 671 670 286 741 } #TODO_WTT_CODE - ignore states that are not owned or controlled by country
 				}
 			}
@@ -2273,119 +2265,117 @@ shared_focus = {
 	}
 }
 
-shared_focus = {
-	id = CHI_dominate_japan
-	icon = GFX_focus_AST_war_japan
-	prerequisite = { focus = CHI_imperial_legacy }
-	x = 2
-	y = 1
-	relative_position_id = CHI_imperial_legacy
+# shared_focus = {
+	# id = CHI_dominate_japan
+	# icon = GFX_focus_AST_war_japan
+	# prerequisite = { focus = CHI_imperial_legacy }
+	# x = 2
+	# y = 1
+	# relative_position_id = CHI_imperial_legacy
 
-	cost = 10
+	# cost = 10
 
-	ai_will_do = {
-		factor = 1
-	}
+	# ai_will_do = {
+		# factor = 1
+	# }
 
-	available = {
-		NOT = { has_war_with = JAP }
-		NOT = { is_subject_of = JAP }
-	}
+	# available = {
+		# NOT = { has_war_with = JAP }
+		# NOT = { is_subject_of = JAP }
+	# }
 
-	bypass = {
-		JAP = { is_subject_of = ROOT }
-	}
+	# bypass = {
+		# JAP = { is_subject_of = ROOT }
+	# }
 
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
+	# cancel_if_invalid = yes
+	# continue_if_invalid = no
+	# available_if_capitulated = no
 
-	completion_reward = {
-		JAP = { country_event = { id = wtt_china.10 } }
-	}
-}
+	# completion_reward = {
+		# JAP = { country_event = { id = wtt_china.10 } }
+	# }
+# }
 
-shared_focus = {
-	id = CHI_secure_the_peninsula
-	icon = GFX_focus_generic_strike_at_democracy1
-	prerequisite = { focus = CHI_overlordship_over_indochina }
-	x = 0
-	y = 2
-	relative_position_id = CHI_imperial_legacy
+# shared_focus = {
+	# id = CHI_secure_the_peninsula
+	# icon = GFX_focus_generic_strike_at_democracy1
+	# prerequisite = { focus = CHI_overlordship_over_indochina }
+	# x = 0
+	# y = 2
+	# relative_position_id = CHI_imperial_legacy
 
-	cost = 10
+	# cost = 10
 
-	ai_will_do = {
-		factor = 1
-	}
+	# ai_will_do = {
+		# factor = 1
+	# }
 
-	available = {
-		OR = {
-			527 = {
-				CONTROLLER = {
-					NOT = { tag = ROOT }
-					NOT = { is_in_faction_with = ROOT }
-				}
-			}
-			525 = {
-				CONTROLLER = {
-					NOT = { tag = ROOT }
-					NOT = { is_in_faction_with = ROOT }
-				}
-			}
-		}
-	}
+	# available = {
+		# OR = {
+			# 527 = {
+				# CONTROLLER = {
+					# NOT = { tag = ROOT }
+					# NOT = { is_in_faction_with = ROOT }
+				# }
+			# }
+			# 525 = {
+				# CONTROLLER = {
+					# NOT = { tag = ROOT }
+					# NOT = { is_in_faction_with = ROOT }
+				# }
+			# }
+		# }
+	# }
 
-	bypass = {
+	# bypass = {
 
-	}
+	# }
 
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
+	# cancel_if_invalid = yes
+	# continue_if_invalid = no
+	# available_if_capitulated = no
 
-	completion_reward = {
-		527 = {
-			CONTROLLER = {
-				ROOT = {
-					create_wargoal = {
-						type = take_state_focus
-						target = PREV
-						expire = 0
-						generator = { 527 }
-					}
-				}
-			}
-		}
-		#Don't give wargoal on same country twice
-		if = {
-			limit = {
-				NOT = {
-					525 = {
-						CONTROLLER = {
-							OR = {
-								controls_state = 527
-								tag = ROOT								
-							}
-						}
-					}
-				}
-			}
-			525 = {
-				CONTROLLER = {
-					ROOT = {
-						create_wargoal = {
-							type = take_state_focus
-							target = PREV
-							expire = 0
-							generator = { 525 }
-						}
-					}
-				}
-			}
-		}
-	}
-}
+	# completion_reward = {
+		# 527 = {
+			# CONTROLLER = {
+				# ROOT = {
+					# create_wargoal = {
+						# type = take_state_focus
+						# target = PREV
+						# generator = { 527 }
+					# }
+				# }
+			# }
+		# }
+		# #Don't give wargoal on same country twice
+		# if = {
+			# limit = {
+				# NOT = {
+					# 525 = {
+						# CONTROLLER = {
+							# OR = {
+								# controls_state = 527
+								# tag = ROOT								
+							# }
+						# }
+					# }
+				# }
+			# }
+			# 525 = {
+				# CONTROLLER = {
+					# ROOT = {
+						# create_wargoal = {
+							# type = take_state_focus
+							# target = PREV
+							# generator = { 525 }
+						# }
+					# }
+				# }
+			# }
+		# }
+	# }
+# }
 
 shared_focus = {
 	id = CHI_british_cooperation

@@ -225,7 +225,7 @@ equipments = {
 
 		
 		resources = {
-			steel = 3
+			steel = 2
 		}
 
 		surface_detection = 20
@@ -298,8 +298,7 @@ equipments = {
 		max_strength = 60
 		build_cost_ic = 600
 		resources = {
-			steel = 4
-			chromium = 1
+			steel = 2
 		}
 		manpower = 500
 	}
@@ -501,8 +500,8 @@ equipments = {
 		build_cost_ic = 500
 		resources = {
 			#oil = 2
-			steel = 4
-			chromium = 1
+			steel = 2
+			chromium = 4
 		}		
 		manpower = 500
 	}

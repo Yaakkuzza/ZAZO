@@ -14,7 +14,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription_factor = 0.02
+				conscription_factor = 0.01
 			}
 		}
 
@@ -31,7 +31,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription_factor = 0.02
+				conscription_factor = 0.01
 			}
 		}
 	}
@@ -92,9 +92,8 @@ ideas = {
 
 			modifier = {
 				stability_factor = -0.1
-				war_support_factor = -0.05
 				conscription_factor = -0.2
-				autonomy_gain = -0.4
+				autonomy_gain = 0.4
 			}
 		}
 
@@ -113,8 +112,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				stability_factor = -0.02
-				conscription_factor = -0.1
+				conscription_factor = -0.2
 				autonomy_gain = 0.6
 			}
 		}
@@ -262,7 +260,7 @@ ideas = {
 			modifier = {
 				autonomy_gain = -0.4
 				consumer_goods_factor = -0.03
-				conscription_factor = 0.05
+				conscription_factor = 0.01
 			}
 		}
 
@@ -373,7 +371,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription_factor = -0.69
+				conscription_factor = -0.73
 			}
 		}
 

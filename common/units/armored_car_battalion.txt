@@ -26,10 +26,10 @@ sub_units = {
 			armored_car_equipment = 60
 		}
 		manpower = 500
-		max_organisation = 10
-		default_morale = 0.3
+		max_organisation = 1
+		default_morale = 0.1
 		training_time = 180
-		max_strength = 2
+		max_strength = 1
 		weight = 0.8
 		supply_consumption = 0.14
 
@@ -37,33 +37,36 @@ sub_units = {
 		suppression = 2.5
 
 		forest = {
-		    attack = -0.2
-			movement = -0.4
+			attack = -0.4
+			defence = -0.4
+			movement = -0.2
 		}
-		mountain = 	{
-		    attack = -0.1
-		    movement = -0.1
+		hills = {
+			attack = -0.4
+			defence = -0.4
+			movement = -0.15
+		}
+		mountain = {
+			attack = -1
+			defence = -1
+			movement = -0.25
 		}
 		jungle = {
-		    attack = -0.3
-			movement = -0.5
+			attack = -0.6
+			defence = -0.6
+			movement = -0.15
 		}
 		marsh = {
-		    attack = -0.1 
-			movement = -0.2
-		}
-		desert = {
-			movement = 0.15
+			attack = -0.6
+			defence = -0.6
+			movement = -0.15
 		}
 		urban = {
-			attack = -0.3
+			attack = -0.8
+			defence = -0.8
 		}
-		river = { 
-			attack = -0.2 
-			movement = -0.2
-		}
-		amphibious = { 
-			attack = -0.4
+		amphibious = {
+			attack = -0.8
 		}	
 	}
 }

@@ -34,13 +34,13 @@ equipments = {
 		reliability = 0.8
 
 		# Air vs Navy - high damage / low hit chance / hard to hurt
-		naval_strike_attack = 1.5
-		naval_strike_targetting = 0.6
+		naval_strike_attack = 0
+		naval_strike_targetting = 0
 		
 		#Space taken in convoy
 		lend_lease_cost = 12
 		
-		build_cost_ic = 60
+		build_cost_ic = 56
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -107,14 +107,14 @@ equipments = {
 		archetype = strat_bomber_equipment
 		priority = 140
 		
-		air_range = 2500
-		maximum_speed = 400
-		air_agility = 5
-		air_attack = 50
-		air_defence = 25
-		air_bombing = 30
+		air_range = 2400
+		maximum_speed = 600
+		air_agility = 12
+		air_attack = 24
+		air_defence = 24
+		air_bombing = 40
 		
-		# build_cost_ic = 36
+		# build_cost_ic = 56
 	}
 
 	# Improved strat_bomber
@@ -125,14 +125,14 @@ equipments = {
 		parent = strat_bomber_equipment_1
 		priority = 140
 
-		air_range = 3500
-		maximum_speed = 450
-		air_agility = 7
-		air_attack = 100
-		air_defence = 35
-		air_bombing = 45
+		air_range = 3000
+		maximum_speed = 750
+		air_agility = 15
+		air_attack = 30
+		air_defence = 30
+		air_bombing = 50
 		
-		build_cost_ic = 62
+		build_cost_ic = 70
 		resources = {
 			#oil = 1
 			aluminium = 4
@@ -148,14 +148,14 @@ equipments = {
 		parent = strat_bomber_equipment_2
 		priority = 140
 		
-		air_range = 5000
-		maximum_speed = 500
-		air_agility = 10
-		air_attack = 150
-		air_defence = 50
+		air_range = 3600
+		maximum_speed = 900
+		air_agility = 18
+		air_attack = 36
+		air_defence = 36
 		air_bombing = 60
 		
-		build_cost_ic = 64
+		build_cost_ic = 84
 		resources = {
 			#oil = 1
 			aluminium = 5
@@ -211,7 +211,7 @@ equipments = {
 		}
 		
 		manpower = 80
-		fuel_consumption = 0
+		fuel_consumption = 0.2
 	}
 
 
@@ -222,9 +222,9 @@ equipments = {
 		active = yes
 		priority = 130
 		
-		air_range = 1000
+		air_range = 1200
 		maximum_speed = 300
-		air_agility = 10
-		air_defence = 20
+		air_agility = 24
+		air_defence = 24
 	}
 }

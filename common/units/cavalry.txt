@@ -25,9 +25,9 @@ sub_units = {
 		combat_width = 2
 		
 		#Size Definitions
-		max_organisation = 70
+		max_organisation = 60
 		max_strength = 25
-		default_morale = 0.3
+		default_morale = 0.6
 		manpower = 1000
 
 		#Misc Abilities
@@ -36,37 +36,39 @@ sub_units = {
 		weight = 0.5
 		
 		supply_consumption = 0.12
-
+	
 		#Offensive Abilities
 		suppression = 2
-	
+		
 		need = {
-			infantry_equipment = 120
+			infantry_equipment = 100
 		}
 
 		forest = {
-			attack = -0.05
+			attack = -0.2
+			movement = -0.1
 		}
-
 		hills = {
-			attack = -0.05
+			attack = -0.3
+			movement = -0.15
 		}
-
 		mountain = {
-			attack = -0.1
-			movement = -0.05
+			attack = -0.5
+			movement = -0.25
 		}
-
 		jungle = {
-			attack = -0.1
+			attack = -0.3
+			movement = -0.15
 		}
-
+		marsh = {
+			attack = -0.3
+			movement = -0.15
+		}
 		urban = {
-			attack = -0.05
-		}
-
-		amphibious = {
 			attack = -0.4
+		}
+		amphibious = {
+			attack = -0.8
 		}
 	}
 
@@ -91,8 +93,8 @@ sub_units = {
 		
 		#Size Definitions
 		max_organisation = 70
-		max_strength = 30
-		default_morale = 0.3
+		max_strength = 20
+		default_morale = 0.8
 		manpower = 1000
 
 		#Misc Abilities
@@ -106,48 +108,31 @@ sub_units = {
 		suppression = 2
 	
 		need = {
-			infantry_equipment = 150
+			infantry_equipment = 200
 		}
 
 		forest = {
-			attack = -0.05
+			attack = -0.2
+			movement = -0.1
 		}
-
-		hills = {
-			attack = -0.05
-			movement = -0.05
-		}
-
-		mountain = {
-			attack = -0.1
-			movement = -0.05
-		}
-
 		jungle = {
-			attack = -0.1
+			attack = -0.3
+			movement = -0.15
 		}
-
 		marsh = {
-			movement = 0.05
+			attack = -0.3
+			movement = -0.15
 		}
-
-		plains = {
-			movement = 0.15
-		}
-
 		urban = {
-			attack = -0.05
-			movement = -0.05
-		}
-
-		desert = {
-			attack = 0.05
-			defence = 0.05
-			movement = 0.1
-		}
-
-		amphibious = {
 			attack = -0.4
+		}
+		amphibious = {
+			attack = -0.8
+		}
+		desert = {
+			attack = 0.2
+			defence = 0.2
+			movement = 0.1
 		}
 	}
 }

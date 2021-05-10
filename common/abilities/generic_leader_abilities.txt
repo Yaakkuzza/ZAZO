@@ -37,16 +37,14 @@ ability = {
 			}
 		}
 		
-		cost = 0.22
+		cost = 0.01
 		duration = 168
 		
 		one_time_effect = {
 			add_temporary_buff_to_units = {
 				combat_offense = 0.2
-				combat_breakthrough = 0.25
-				org_damage_multiplier = -1.0
-				str_damage_multiplier = 0.6
-				war_support_reduction_on_damage = 0.2
+				combat_breakthrough = 0.2
+				str_damage_multiplier = 0.5
 				cannot_retreat_while_attacking = 1.0
 				
 				days = 7
@@ -74,16 +72,14 @@ ability = {
 			}
 		}
 		
-		cost = 0.22
+		cost = 0.01
 		duration = 168
 		
 		one_time_effect = {
 			add_temporary_buff_to_units = {
+				combat_offense = 0.2
 				combat_defense = 0.2
-				combat_entrenchment = 0.25
-				org_damage_multiplier = -1.0
-				str_damage_multiplier = 0.6
-				war_support_reduction_on_damage = 0.2
+				str_damage_multiplier = 0.5
 				cannot_retreat_while_defending = 1.0
 				
 				days = 7
@@ -121,7 +117,7 @@ ability = {
 			is_border_war = no
 		}
 		
-		cost = 0.12
+		cost = 0.1
 		duration = 168
 		
 		unit_modifiers = {
@@ -158,10 +154,9 @@ ability = {
 		
 		unit_modifiers = {
 			fort = {
-				attack = 0.2
+				attack = 0.05
 			}
-			fortification_damage = 2.0
-			fortification_collateral_chance = 2.0
+			fortification_damage = 0.5
 		}
 		cost = 0.1
 		duration = 168
