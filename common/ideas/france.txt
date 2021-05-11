@@ -16,7 +16,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				conscription_factor = -0.25
+				conscription_factor = -0.05
 			}
 		}
 		FRA_worker_shortage = {
@@ -1109,6 +1109,7 @@ ideas = {
 			modifier = {
 				conscription = -0.003
 				war_support_factor = -0.05
+				democratic_drift = 0.05
 			}
 		}
 
@@ -1128,9 +1129,7 @@ ideas = {
 			picture = generic_disjointed_gov
 			
 			modifier = {
-				political_power_cost = 0.8
-				stability_factor = -0.10
-				surrender_limit = -0.5
+				political_power_cost = 0.5
 			}
 		}
 
@@ -1190,7 +1189,7 @@ ideas = {
 			picture = generic_wall_line
 			
 			modifier = {
-				army_org_factor = 0.5
+				army_org_factor = 0.1
 			}
 		}
 

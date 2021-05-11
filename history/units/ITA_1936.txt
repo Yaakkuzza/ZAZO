@@ -624,7 +624,7 @@ instant_effect = {
 
 		add_equipment_production = { 
 			equipment = { 
-				type = CAS_equipment_1 
+				type = nav_bomber_equipment_1 
 				creator = "ITA" 
 			} 
 
