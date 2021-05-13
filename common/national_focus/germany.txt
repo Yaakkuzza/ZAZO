@@ -47,7 +47,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_west_wall
-		icon = GFX_focus_GER_88
+		icon = GFX_goal_yugoslavian_wall
 		prerequisite = { focus = GER_four_year_plan }
 		x = -5
 		y = 1

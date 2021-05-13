@@ -246,7 +246,7 @@ focus_tree = {
 	focus = {
 		id = ENG_tank_focus
 		prerequisite = { focus = ENG_chiefs_of_staff_committee }
-		icon = GFX_focus_ENG_desertrats
+		icon = GFX_focus_generic_study_foreign_tanks
 		x = 7
 		y = 2
 		cost = 10
