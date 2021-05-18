@@ -117,17 +117,17 @@ equipments = {
 		
 		naval_range = 3000
 		
-		max_strength = 350
+		max_strength = 400
 
 		fuel_consumption = 67
 		
-		build_cost_ic = 3300
+		build_cost_ic = 4000
 		resources = {
 			steel = 4
 			chromium = 4
 		}
 
-		manpower = 4000
+		manpower = 5000
 	}
 	###Special snowflake hull
 
@@ -180,13 +180,13 @@ equipments = {
 		naval_speed = 13
 		fuel_consumption = 67
 		reliability = 0.65
-		build_cost_ic = 3000
+		build_cost_ic = 4000
 		resources = {
 			steel = 4
 			chromium = 4
 		}
 
-		manpower = 3200
+		manpower = 5000
 	}
 	ship_hull_heavy_1 = {
 		year = 1922
@@ -271,11 +271,11 @@ equipments = {
 
 		naval_range = 3000
 		
-		max_strength = 350
+		max_strength = 400
 		reliability = 0.80
 		fuel_consumption = 67
 		
-		build_cost_ic = 3300
+		build_cost_ic = 4000
 	}
 
 	ship_hull_heavy_2 = {
@@ -334,18 +334,18 @@ equipments = {
 		}
 		naval_range = 3500
 		
-		max_strength = 370
+		max_strength = 480
 		reliability = 0.85
 		fuel_consumption = 67
-		naval_speed = 22
-		build_cost_ic = 3400
+		naval_speed = 24
+		build_cost_ic = 4400
 		resources = {
 			#oil = 1
 			steel = 4
 			chromium = 4
 		}
 
-		manpower = 5200
+		manpower = 5000
 	}
 
 	ship_hull_heavy_3 = {
@@ -411,19 +411,19 @@ equipments = {
 			
 		}
 		naval_range = 4000
-		naval_speed = 24
-		max_strength = 400
+		naval_speed = 28
+		max_strength = 480
 		reliability = 0.9
 		fuel_consumption = 67
 		
-		build_cost_ic = 3500
+		build_cost_ic = 4800
 		resources = {
 			#oil = 1
 			steel = 4
 			chromium = 4
 		}
 
-		manpower = 6000
+		manpower = 5000
 	}
 
 	ship_hull_heavy_4 = {
@@ -490,18 +490,18 @@ equipments = {
 		}
 		naval_range = 4500
 		
-		max_strength = 450
-		naval_speed = 26
+		max_strength = 520
+		naval_speed = 32
 		fuel_consumption = 67
 		reliability = 0.95
-		build_cost_ic = 3600
+		build_cost_ic = 5200
 		resources = {
 			#oil = 1
 			steel = 4
 			chromium = 4
 		}
 
-		manpower = 6000
+		manpower = 5000
 	}
 
 	ship_hull_super_heavy_1 = {
@@ -584,17 +584,17 @@ equipments = {
 			front_1_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		naval_range = 4500
-		naval_speed = 22
-		max_strength = 700
+		naval_range = 3500
+		naval_speed = 24
+		max_strength = 480
 		fuel_consumption = 75
 		reliability = 0.80
-		build_cost_ic = 5500
+		build_cost_ic = 6600
 		resources = {
 			steel = 4
 			chromium = 4
 		}
-		manpower = 9000
+		manpower = 7500
 	}
 
 	battleship_1 = { 

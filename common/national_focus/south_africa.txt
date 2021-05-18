@@ -1969,10 +1969,7 @@
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			random_state = {
-				limit = {
-					has_state_flag = SAF_south_african_railways_Inf
-				}
+			719 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
@@ -1983,19 +1980,12 @@
         search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 2
-					}
-				}
+			719 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
 					instant_build = yes
 				}
-				set_state_flag = SAF_south_african_railways_Inf
 			}
 		}
 	}
@@ -2136,10 +2126,7 @@
         search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		complete_tooltip = {
-			random_state = {
-				limit = {
-					has_state_flag = SAF_infrastructure_effort_Inf
-				}
+			275 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
@@ -2149,19 +2136,12 @@
 		}
 
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 2
-					}
-				}
+			275 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
 					instant_build = yes
 				}
-				set_state_flag = SAF_infrastructure_effort_Inf
 			}
 		}
 	}
