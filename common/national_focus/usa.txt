@@ -3638,7 +3638,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_intervention_in_europe
-		icon = GFX_focus_usa_focus_on_eu
+		icon = GFX_goal_GER_case_anton
 		x = -3
 		y = 1
 		prerequisite = { focus = USA_war_plans_division }
@@ -3668,7 +3668,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_war_plan_silver
-		icon = GFX_focus_USA_husky
+		icon = GFX_goal_italian_revolution
 		x = 11
 		y = 2
 		prerequisite = { focus = USA_intervention_in_europe }
@@ -3696,7 +3696,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_war_plan_black
-		icon = GFX_focus_USA_d_day
+		icon = GFX_goal_ger_kill_hitler
 		prerequisite = { focus = USA_intervention_in_europe }
 		available = {
 		}
@@ -3739,7 +3739,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_intervention_in_asia
-		icon = GFX_focus_usa_on_asia
+		icon = GFX_goal_JAP_fate_of_the_imperial_family
 		x = 2
 		y = 1
 		prerequisite = { focus = USA_war_plans_division }
