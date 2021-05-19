@@ -725,7 +725,7 @@ NMilitary = {
 	NON_CORE_SUPPLY_SPEED = -0.5,				   -- we are not running on our own VP supply so need to steal stuff along the way
 	NON_CORE_SUPPLY_AIR_SPEED = -0.25,			   -- we are not running on our own VP supply so need to steal stuff along the way, a bit less due to air supply
 	OUT_OF_SUPPLY_MORALE = -0.3,                   -- max org regain reduction from supply
-	TRAINING_ATTRITION = 0.06,		  			   -- amount of extra attrition from being in training
+	TRAINING_ATTRITION = 0.01,		  			   -- amount of extra attrition from being in training
 	TRAINING_MIN_STRENGTH = 0.1,					-- if strength is less than this, the unit will pause training until it's been reinforced
 	AIR_SUPPORT_BASE = 0.10,                        -- CAS bonus factor for air support moddifier for land unit in combat
 	LOW_SUPPLY = 0.99,							   -- When the supply status of an unit becomes low.
@@ -1263,7 +1263,7 @@ NNavy = {
 		0.2, -- CONVOY ESCORT
 		1.0, -- MINES PLANTING	
 		1.0, -- MINES SWEEPING	
-		0.2, -- TRAIN
+		0.6, -- TRAIN
 		0.0, -- RESERVE_FLEET (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
 		1.0, -- NAVAL_INVASION_SUPPORT (does not cost fuel at base, only costs while doing bombardment and escorting units)
 	},
@@ -1383,26 +1383,26 @@ NNavy = {
 	SUPREMACY_PER_SHIP_PER_IC = 0.05,
 	SUPREMACY_PER_SHIP_BASE = 0.0,
 
-	NAVAL_MINES_IN_REGION_MAX = 10.0,								-- Max number of mines that can be layed by the ships. The value should be hidden from the user, as we present % so it's an abstract value that should be used for balancing.
+	NAVAL_MINES_IN_REGION_MAX = 1.0,								-- Max number of mines that can be layed by the ships. The value should be hidden from the user, as we present % so it's an abstract value that should be used for balancing.
 	NAVAL_MINES_PLANTING_SPEED_MULT = 0.01,						-- Value used to overall balance of the speed of planting naval mines
 	NAVAL_MINES_SWEEPING_SPEED_MULT = 0.009,						-- Value used to overall balance of the speed of sweeping naval mines
 	NAVAL_MINES_DECAY_AT_PEACE_TIME = 0.25,							-- How fast mines are decaying in peace time. Planting mines in peace time may be exploitable, so it's blocked atm. That's why after war we should decay them too.
 	NAVAL_MINES_SWEEPERS_REDUCTION_ON_PENALTY_EFFECT = 3.3,			-- How much is the task force's sweeping attribute reducing the penalty effect.
-	NAVAL_MINES_INTEL_DIFF_FACTOR = 0.1,					-- Better our decryption over enemy encryption will reduce the penalties from the enemy mines in the region. This value is a factor to be used for balancing.
-	NAVAL_MINES_NAVAL_SUPREMACY_FACTOR = 0.2,						-- Factor for max amount of mines increasing naval supremacy
+	NAVAL_MINES_INTEL_DIFF_FACTOR = 0.0,					-- Better our decryption over enemy encryption will reduce the penalties from the enemy mines in the region. This value is a factor to be used for balancing.
+	NAVAL_MINES_NAVAL_SUPREMACY_FACTOR = 0.0,						-- Factor for max amount of mines increasing naval supremacy
 	
-	ATTRITION_WHILE_MOVING_FACTOR = 1.5,							-- attrition multiplier while moving & doing missions
-	ATTRITION_DAMAGE_ORG = 0.01,					   				-- damage from attrition to Organisation (relative to max org)
-	ATTRITION_DAMAGE_STR = 0.03,					   				-- damage from attrition to str (relative to max str)
-	ATTRITION_STR_DAMAGE_CHANCE = 0.2,								-- chance to get damaged at highest attrition
+	ATTRITION_WHILE_MOVING_FACTOR = 0.0,							-- attrition multiplier while moving & doing missions
+	ATTRITION_DAMAGE_ORG = 0.0,					   				-- damage from attrition to Organisation (relative to max org)
+	ATTRITION_DAMAGE_STR = 0.0,					   				-- damage from attrition to str (relative to max str)
+	ATTRITION_STR_DAMAGE_CHANCE = 0.0,								-- chance to get damaged at highest attrition
 		
-	NAVAL_ACCIDENT_CHANCE_REDUCTION_ON_POTF = 0.01,					-- Scale of the current chance for an accident to happen, applied for the pride of the fleet.
-	NAVAL_ACCIDENT_CRITICAL_HIT_CHANCE_REDUCTION_POTF = 0.01,		-- Scale of the current chance for a critical hit when an accident happens, applied for the pride of the fleet.
+	NAVAL_ACCIDENT_CHANCE_REDUCTION_ON_POTF = 0.0,					-- Scale of the current chance for an accident to happen, applied for the pride of the fleet.
+	NAVAL_ACCIDENT_CRITICAL_HIT_CHANCE_REDUCTION_POTF = 0.0,		-- Scale of the current chance for a critical hit when an accident happens, applied for the pride of the fleet.
 
-	NAVAL_MINES_ACCIDENT_CRITICAL_HIT_CHANCES = 0.14,				-- If an accident happens, how likely it is to be a critical hit (caused by naval mines)
-	NAVAL_MINES_ACCIDENT_CRITICAL_HIT_DAMAGE_SCALE = 5.0,			-- Scale the value below in case of critical hit (caused by naval mines)
-	NAVAL_MINES_ACCIDENT_STRENGTH_LOSS = 75.0,						-- Amount of strength loss when hit by naval mine
-	NAVAL_MINES_ACCIDENT_ORG_LOSS_FACTOR = 0.6,						-- Amount of strength loss when hit by naval mine
+	NAVAL_MINES_ACCIDENT_CRITICAL_HIT_CHANCES = 0.0,				-- If an accident happens, how likely it is to be a critical hit (caused by naval mines)
+	NAVAL_MINES_ACCIDENT_CRITICAL_HIT_DAMAGE_SCALE = 0.0,			-- Scale the value below in case of critical hit (caused by naval mines)
+	NAVAL_MINES_ACCIDENT_STRENGTH_LOSS = 0.0,						-- Amount of strength loss when hit by naval mine
+	NAVAL_MINES_ACCIDENT_ORG_LOSS_FACTOR = 0.0,						-- Amount of strength loss when hit by naval mine
 
 	TRAINING_ACCIDENT_CHANCES = 0.02,						-- Chances one ship get damage each hour while on training 
 	TRAINING_ACCIDENT_CRITICAL_HIT_CHANCES = 0.3,					-- If an accident happens, how likely it is to be a critical hit

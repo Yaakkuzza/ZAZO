@@ -152,13 +152,6 @@ country_event = {
 		name = britain.6.a
 		end_puppet = RAJ
 	}
-	option = {
-		name = britain.6.b
-		RAJ = {
-			add_stability = -0.3
-			add_war_support = -0.2
-		}
-	}
 }
 
 #End trade with Germany event for SWE/NOR
@@ -195,27 +188,6 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = {
-		name = britain.8.a
-		ai_chance = { factor = 70 }
-		create_wargoal = {
-				type = take_state
-				target = FROM
-				generator = owned_states
-			}
-		if = {
-			limit = {
-				USA = {
-					NOT = {
-						has_opinion_modifier = unprovoked_aggression
-					}
-				}
-			}
-			USA = {
-				add_opinion_modifier = { target = ROOT modifier = unprovoked_aggression }
-			}
-		}
-	}
 	option = {
 		name = britain.8.b
 		ai_chance = { factor = 30 }
@@ -324,20 +296,6 @@ country_event = {
 			}
 		}
 	}
-	option = {
-		name = britain.10.b
-		kill_country_leader = yes
-		create_country_leader = {
-			name = "Lord Edward Halifax"
-			desc = "POLITICS_EDWARD_HALIFAX_DESC"
-			picture = "Portrait_Britain_Edward_Halifax.dds"
-			expire = "1965.1.1"
-			ideology = conservatism
-			traits = {
-				
-			}
-		}
-	}
 }
 
 # React to Rise of the CommieNazis 
@@ -351,30 +309,7 @@ country_event = {
 	trigger = {
 		is_faction_leader = yes
 	}
-	
-	option = {
-		name = britain.11.a
-		add_war_support = 0.1
-		every_other_country = {
-				limit = {
-					NOT = { has_war_with = ENG }
-					is_in_faction = no
-					has_government = democratic
-					is_puppet = no
-					OR = {
-						capital_scope = {
-								is_on_continent = europe
-						}
-						capital_scope = {
-								is_on_continent = asia
-						}
-						num_of_factories > 30
-					}
-				}
-				country_event = britain.12
-			}
-	}
-	
+		
 	option = {
 		name = britain.11.b
 		ai_chance = { factor = 0 }
@@ -402,11 +337,6 @@ country_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = britain.12.b
-		ai_chance = { factor = 0 }
-	}
 }
 
 # France wants to join allies
@@ -431,21 +361,6 @@ country_event = {
 		FROM = { country_event = { id = france.29} }
 		hidden_effect = {
 			news_event = { id = news.175 }
-		}
-	}
-	
-	option = {
-		name = britain.13.b
-		ai_chance = { factor = 0 }
-		FROM = { 
-			add_opinion_modifier = {
-				target = ROOT
-				modifier = FRA_go_with_britain_reject
-			}
-			country_event = { id = france.30 }
-		}
-		hidden_effect = {
-			news_event = { id = news.176 }
 		}
 	}
 }

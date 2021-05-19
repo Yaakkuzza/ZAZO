@@ -32,13 +32,13 @@ equipments = {
 
 		#Defensive Abilities
 		defense = 0
-		breakthrough = 28
+		breakthrough = 56
 		hardness = 0.9
 		armor_value = 120
 
 		#Offensive Abilities
-		soft_attack = 14
-		hard_attack = 14
+		soft_attack = 28
+		hard_attack = 28
 		ap_attack = 60
 		air_attack = 0
 
@@ -57,7 +57,7 @@ equipments = {
 
 	# 1934
 	heavy_tank_equipment_1 = {
-		year = 1934
+		year = 1939
 
 		archetype = heavy_tank_equipment		
 		priority = 90
@@ -164,14 +164,14 @@ equipments = {
 
 		#Defensive Abilities
 		defense = 0
-		breakthrough = 9
+		breakthrough = 18
 		hardness = 0.9
 		armor_value = 120
 
 		#Offensive Abilities
-		soft_attack = 36
+		soft_attack = 64
 		hard_attack = 0
-		ap_attack = 8
+		ap_attack = 16
 		air_attack = 0
 		
 		build_cost_ic = 25.2
@@ -184,7 +184,7 @@ equipments = {
 	}
 
 	heavy_tank_artillery_equipment_1 = {
-		year = 1934
+		year = 1939
 
 		archetype = heavy_tank_artillery_equipment
 		family = heavy_tank_equipment_1
@@ -306,8 +306,8 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 0
-		hard_attack = 30
-		ap_attack = 120
+		hard_attack = 60
+		ap_attack = 240
 		air_attack = 0
 		
 		build_cost_ic = 16.8
@@ -356,7 +356,7 @@ equipments = {
 		#Offensive Abilities
 		soft_attack = 0
 		hard_attack = 75
-		ap_attack = 280
+		ap_attack = 300
 		air_attack = 0
 		
 		build_cost_ic = 21
@@ -446,7 +446,7 @@ equipments = {
 		soft_attack = 0
 		hard_attack = 0
 		ap_attack = 0
-		air_attack = 12
+		air_attack = 24
 		
 		build_cost_ic = 16.8
 		resources = {
@@ -458,7 +458,7 @@ equipments = {
 	}
 
 	heavy_tank_aa_equipment_1 = {
-		year = 1934
+		year = 1939
 
 		archetype = heavy_tank_aa_equipment
 		family = heavy_tank_equipment_1
