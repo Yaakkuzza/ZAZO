@@ -2121,12 +2121,19 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				bonus = 1.0
-				uses = 1
+				uses = 2
 				name = mech_army_bonus
 				technology = basic_medium_tank
 				technology = improved_medium_tank
 				technology = advanced_medium_tank
-				technology = mechanised_infantry
+				technology = basic_heavy_tank
+				technology = improved_heavy_tank
+				technology = advanced_heavy_tank
+				technology = advanced_light_tank
+				technology = amphibious_tank
+				technology = amphibious_tank_2
+				technology = super_heavy_tank	
+				technology = main_battle_tank			
 			}	
 			# REVISIT Might want to add bonuses to Soviet through event, since focus branches from treaty
 		}
@@ -2805,6 +2812,7 @@ focus_tree = {
 		#mutually_exclusive = { focus = GER_danzig_vs_slovakia }
 		will_lead_to_war_with = POL
 		available = {
+			date > 1939.4.1
 			is_puppet = no
 			has_global_flag = sov_yes_pact
 			#has_army_manpower = { size > 949999 } #100 div			
@@ -2959,14 +2967,6 @@ focus_tree = {
 		will_lead_to_war_with = LIT
 		
 		available = {
-			POL = {
-				NOT = { controls_state = 85 }
-				NOT = { controls_state = 10 }	
-			}
-			OR = { 
-				has_war_with = ENG
-				NOT = {country_exists = ENG}
-			}
 		}
 		
 		x = 1

@@ -1380,6 +1380,8 @@
 		will_lead_to_war_with = USA
 		will_lead_to_war_with = MAL
 		will_lead_to_war_with = INS
+		will_lead_to_war_with = CAN
+		will_lead_to_war_with = SAF
 
 		cost = 10
 
@@ -1401,7 +1403,7 @@
 		}
 
 		available = {
-
+			date > 1940.9.1
 		}
 
 		bypass = {
@@ -1449,6 +1451,8 @@
 			declare_war_on = { target = AST type = annex_everything}
 			declare_war_on = { target = MAL type = annex_everything}
 			declare_war_on = { target = USA type = annex_everything}
+			declare_war_on = { target = CAN type = annex_everything}
+			declare_war_on = { target = SAF type = annex_everything}
 			
 			hidden_effect = {
 			create_country_leader = {
@@ -4338,7 +4342,17 @@
 				name = JAP_armored_divisions
 				bonus = 1.0
 				uses = 1
-				category = armor	
+				technology = basic_medium_tank
+				technology = improved_medium_tank
+				technology = advanced_medium_tank
+				technology = basic_heavy_tank
+				technology = improved_heavy_tank
+				technology = advanced_heavy_tank
+				technology = advanced_light_tank
+				technology = amphibious_tank
+				technology = amphibious_tank_2
+				technology = super_heavy_tank	
+				technology = main_battle_tank		
 			}
 		}
 	}

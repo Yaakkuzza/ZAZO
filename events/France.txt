@@ -170,6 +170,9 @@ country_event = {
 		has_government = democratic
 		16 = { is_controlled_by = GER }
 		31 = { is_controlled_by = GER }
+		21 = { is_controlled_by = GER }
+		735 = { is_controlled_by = GER }
+		22 = { is_controlled_by = GER }
 		is_in_faction_with = ENG
 		ENG = { has_war_with = GER }
 		surrender_progress > 0.9
@@ -254,7 +257,34 @@ country_event = {
 			}
 		}
 		ENG = { change_tag_from = FRA }
-	}
+	
+			hidden_effect = {
+			every_state = {
+				limit = {
+					is_core_of = FRA
+				}
+				ENG = {
+					add_state_core = PREV
+				}
+			}
+		}
+		FRA = {
+			every_unit_leader = {
+				set_unit_leader_flag = flag_former_french_general
+				set_nationality = ENG
+			}
+		}
+		ENG = {
+			annex_country = { target = FRA transfer_troops = yes }
+		}
+		custom_effect_tooltip = FRA_franco_british_cores
+		hidden_effect = {
+			ENG = { set_cosmetic_tag = FRA_UK }
+			GER = { 
+				country_event = { hours = 6 id = news.35 }
+			}
+		}
+	}	
 }
 
 # France suggests a Union (Britain)
@@ -291,32 +321,6 @@ country_event = {
 		# Franco-British Union created
 		set_global_flag = fall_of_france
 		set_global_flag = flag_franco_british_union
-		hidden_effect = {
-			every_state = {
-				limit = {
-					is_core_of = FRA
-				}
-				ENG = {
-					add_state_core = PREV
-				}
-			}
-		}
-		FRA = {
-			every_unit_leader = {
-				set_unit_leader_flag = flag_former_french_general
-				set_nationality = ENG
-			}
-		}
-		ENG = {
-			annex_country = { target = FRA transfer_troops = yes }
-		}
-		custom_effect_tooltip = FRA_franco_british_cores
-		hidden_effect = {
-			ENG = { set_cosmetic_tag = FRA_UK }
-			GER = { 
-				country_event = { hours = 6 id = news.35 }
-			}
-		}
 	}
 }
 

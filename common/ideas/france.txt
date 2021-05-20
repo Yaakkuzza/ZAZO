@@ -1189,6 +1189,7 @@ ideas = {
 			picture = generic_wall_line
 			
 			modifier = {
+				surrender_limit = -0.3
 				army_org_factor = 0.1
 			}
 		}

@@ -2321,13 +2321,33 @@
 				name = CAN_the_valentine_tank
 				bonus = 1.0
 				uses = 1
-				category = armor
+				technology = basic_medium_tank
+				technology = improved_medium_tank
+				technology = advanced_medium_tank
+				technology = basic_heavy_tank
+				technology = improved_heavy_tank
+				technology = advanced_heavy_tank
+				technology = advanced_light_tank
+				technology = amphibious_tank
+				technology = amphibious_tank_2
+				technology = super_heavy_tank	
+				technology = main_battle_tank	
 			}
 			add_tech_bonus = {
 				name = CAN_the_valentine_tank
 				bonus = 1.0
 				uses = 1
-				category = cat_light_armor
+				technology = basic_medium_tank
+				technology = improved_medium_tank
+				technology = advanced_medium_tank
+				technology = basic_heavy_tank
+				technology = improved_heavy_tank
+				technology = advanced_heavy_tank
+				technology = advanced_light_tank
+				technology = amphibious_tank
+				technology = amphibious_tank_2
+				technology = super_heavy_tank	
+				technology = main_battle_tank	
 			}
 		}
 	}

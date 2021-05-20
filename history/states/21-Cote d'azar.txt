@@ -4,6 +4,7 @@ state={
 	name="STATE_21" # Provence
 	manpower = 2060400
 	resources={
+		steel=70 # was: 136
 		aluminium=60 # was: 120
 	}
 
