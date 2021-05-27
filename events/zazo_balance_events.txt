@@ -91,27 +91,28 @@ news_event = {
 	immediate = {
 		set_global_flag = fall_of_chinaa
 		JAP = {
-		annex_country = {
-        target = CHI
-        }
-		annex_country = {
-        target = SHX
-        }
-		annex_country = {
-        target = PRC
-        }
-		annex_country = {
-        target = XSM
-        }
-		annex_country = {
-        target = SIK
-        }
-		annex_country = {
-        target = GXC
-        }
-		annex_country = {
-        target = YUN
-        }
+			annex_country = {
+			target = CHI
+			}
+			annex_country = {
+			target = SHX
+			}
+			annex_country = {
+			target = PRC
+			}
+			annex_country = {
+			target = XSM
+			}
+			annex_country = {
+			target = SIK
+			}
+			annex_country = {
+			target = GXC
+			}
+			annex_country = {
+			target = YUN
+			}
+			add_named_threat = { threat = 30 name = Fall_of_China }
 		}
 		
 	}
@@ -143,9 +144,10 @@ news_event = {
 	immediate = {
 		set_global_flag = fall_of_yugos
 		ITA = {
-		annex_country = {
-        target = YUG
-        }
+			annex_country = {
+			target = YUG
+			}
+			add_named_threat = { threat = 16 name = Fall_of_Yugoslavia }
 		}
 		
 	}
@@ -177,9 +179,10 @@ news_event = {
 	immediate = {
 		set_global_flag = fall_of_greek
 		ITA = {
-		annex_country = {
-        target = GRE
-        }
+			annex_country = {
+			target = GRE
+			}
+			add_named_threat = { threat = 6 name = Fall_of_Grece }
 		}
 		
 	}
@@ -193,7 +196,7 @@ news_event = {
 	}
 }
 
-# The Fall of Greece
+# The Fall of Finland
 news_event = {
 	id = zazo.start.event.5
 	title = zazo.start.event.5.t
@@ -211,11 +214,11 @@ news_event = {
 	immediate = {
 		set_global_flag = fall_of_mannerheim
 		SOV = {
-		annex_country = {
-        target = FIN
-        }
+			annex_country = {
+			target = FIN
+			}
 		}
-		
+		add_threat = 4
 	}
 	
 	mean_time_to_happen = {
@@ -246,15 +249,15 @@ news_event = {
 	immediate = {
 		set_global_flag = fall_of_beneluxx
 		ENG = {
-		annex_country = {
-        target = HOL
-        }
-		annex_country = {
-        target = BEL
-        }
-		annex_country = {
-        target = LUX
-        }
+			annex_country = {
+			target = HOL
+			}
+			annex_country = {
+			target = BEL
+			}
+			annex_country = {
+			target = LUX
+			}
 		}
 		
 	}
@@ -287,15 +290,15 @@ news_event = {
 	immediate = {
 		set_global_flag = fall_of_scandi
 		ENG = {
-		annex_country = {
-        target = DEN
-        }
-		annex_country = {
-        target = ICE
-        }
-		annex_country = {
-        target = NOR
-        }
+			annex_country = {
+			target = DEN
+			}
+			annex_country = {
+			target = ICE
+			}
+			annex_country = {
+			target = NOR
+			}
 		}
 		
 	}
