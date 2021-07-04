@@ -31,15 +31,13 @@ sub_units = {
 		training_time = 120
 
 		#Misc Abilities
+		maximum_speed = 0.6
 		weight = 0.1
 		supply_consumption = 0.05
 		recon = 1
 		can_be_parachuted = yes
-
-		maximum_speed = 0.6 # move at horsie speeds
 		
 		essential = {
-			infantry_equipment
 			support_equipment
 		}
 
@@ -113,7 +111,6 @@ sub_units = {
 		can_be_parachuted 	= yes
 		
 		essential = {
-			infantry_equipment
 			support_equipment
 			motorized_equipment
 		}
