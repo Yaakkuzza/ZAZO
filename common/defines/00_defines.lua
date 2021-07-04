@@ -663,7 +663,7 @@ NMilitary = {
 	MAX_NUM_TRAITS = -1,						   -- cant have more, -1 to disable
 	ENEMY_AIR_SUPERIORITY_IMPACT = -0.10,          -- effect on defense due to enemy air superiorty
 	ENEMY_AIR_SUPERIORITY_DEFENSE = 1,	       -- more AA attack will approach this amount of help (diminishing returns)
-	ENEMY_AIR_SUPERIORITY_DEFENSE_STEEPNESS = 200, -- how quickly defense approaches the max impact diminishing returns curve
+	ENEMY_AIR_SUPERIORITY_DEFENSE_STEEPNESS = 120, -- how quickly defense approaches the max impact diminishing returns curve
 	ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0.1,     -- effect on speed due to enemy air superiority
 
 	ANTI_AIR_TARGETTING_TO_CHANCE = 0.01,			-- Balancing value to determine the chance of ground AA hitting an attacking airplane, affecting both the effective average damage done by AA to airplanes, and the reduction of damage done by airplanes due to AA support
@@ -713,7 +713,7 @@ NMilitary = {
 	BASE_NIGHT_ATTACK_PENALTY = -0.5,
 	EXILE_EQUIPMENT = 1.0,						   -- Amount of equipment to keep
 	EXILE_ORG = 0.0,							   -- Amount of org to keep
-	EXPERIENCE_LOSS_FACTOR = 1.00,                 -- percentage of experienced solders who die when manpower is removed
+	EXPERIENCE_LOSS_FACTOR = 0.50,                 -- percentage of experienced solders who die when manpower is removed
 	EQUIPMENT_COMBAT_LOSS_FACTOR = 1,	 	       -- % of equipment lost to strength ratio in combat, so some % is returned if below 1
 	SUPPLY_USE_FACTOR_MOVING = 1.5,                -- supply use when moving/fighting vs inactive
 	SUPPLY_USE_FACTOR_INACTIVE = 0.95,

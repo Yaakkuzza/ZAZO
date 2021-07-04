@@ -177,7 +177,7 @@ equipments = {
 		ap_attack = 8
 		air_attack = 0
 
-		build_cost_ic = 18
+		build_cost_ic = 12
 		
 		resources = {
 			#oil = 1
@@ -226,7 +226,7 @@ equipments = {
 		hard_attack = 0
 		ap_attack = 10
 		
-		build_cost_ic = 22.5
+		build_cost_ic = 15
 		
 		resources = {
 			steel = 3
@@ -262,7 +262,7 @@ equipments = {
 		hard_attack = 0
 		ap_attack = 12
 		
-		build_cost_ic = 27
+		build_cost_ic = 18
 		
 		resources = {
 			steel = 4
