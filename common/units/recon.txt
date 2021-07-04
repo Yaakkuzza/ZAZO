@@ -31,12 +31,11 @@ sub_units = {
 		training_time = 120
 
 		#Misc Abilities
-		maximum_speed = 0.6
 		weight = 0.1
 		supply_consumption = 0.05
 		recon = 1
 		can_be_parachuted = yes
-		
+
 		essential = {
 			support_equipment
 		}
