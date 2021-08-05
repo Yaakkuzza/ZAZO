@@ -1,4 +1,4 @@
-version="1.10.7"
+version="1.10.8"
 tags={
 	"Military"
 	"Gameplay"
@@ -6,5 +6,5 @@ tags={
 	"Balance"
 }
 name="ZAZO"
-supported_version="1.10.7"
+supported_version="1.10.8"
 remote_file_id="2466318476"

@@ -32,12 +32,12 @@ equipments = {
 
 		#Defensive Abilities
 		defense = 0
-		breakthrough = 84
+		breakthrough = 96
 		hardness = 1
 		armor_value = 180
 
 		#Offensive Abilities
-		soft_attack = 42
+		soft_attack = 48
 		hard_attack = 42
 		ap_attack = 180
 		air_attack = 0
