@@ -1789,7 +1789,7 @@ technologies = {
 		xor = { mobile_warfare superior_firepower mass_assault } 
 	
 		max_dig_in = 10
-		dig_in_speed_factor = 0.5 #50% bonus
+		dig_in_speed_factor = 1 #100% bonus
 		
 		
 		path = {
@@ -1885,6 +1885,9 @@ technologies = {
 			defense = 0.10
 			max_organisation = 10
 		}
+		infantry = {
+			defense = 0.15
+		}
 		
 		path = {
 			leads_to_tech = grand_assault 
@@ -1925,10 +1928,10 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
-		infantry = {
-			defense = 0.15
+
+		category_army = {
+		soft_attack = 0.05
 		}
-		
 		enable_tactic = tactic_planned_attack
 		
 		path = {
