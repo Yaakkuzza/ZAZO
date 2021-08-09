@@ -122,9 +122,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
-			lg_attack = 2
-			anti_air_attack = 3
-			build_cost_ic = 240
+			lg_attack = 1
+			anti_air_attack = 2
+			build_cost_ic = 480
 		}
 		multiply_stats = {
 			naval_speed = -0.02
@@ -138,7 +138,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_light_battery
-			convert_cost_ic = 192
+			convert_cost_ic = 384
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -564,7 +564,7 @@ equipment_modules = {
 		}
 
 		add_average_stats = {
-			lg_armor_piercing = 4
+			lg_armor_piercing = 2
 		}
 		
 		can_convert_from = {
@@ -581,19 +581,19 @@ equipment_modules = {
 
 		add_stats = {
 			lg_attack = 1.2
-			build_cost_ic = 280
+			build_cost_ic = 240
 		}
 		multiply_stats = {
 			naval_speed = -0.02
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 4.8
+			lg_armor_piercing = 2.4
 		}
 		
 		can_convert_from = {
 			module_category = ship_secondaries
-			convert_cost_ic = 168
+			convert_cost_ic = 144
 		}
 		critical_parts = { damaged_secondaries }
 	}
@@ -604,8 +604,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			lg_attack = 1.4
-			anti_air_attack = 2
-			build_cost_ic = 420
+			build_cost_ic = 280
 		}
 
 		multiply_stats = {
@@ -613,12 +612,12 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 5.6
+			lg_armor_piercing = 2.8
 		}
 		
 		can_convert_from = {
 			module_category = ship_secondaries
-			convert_cost_ic = 336
+			convert_cost_ic = 168
 		}
 		critical_parts = { damaged_secondaries }
 	}
