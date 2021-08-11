@@ -39,9 +39,11 @@ political_actions = {
 		complete_effect = {
 			annex_country = {
 			target = MAN
+			transfer_troops = yes
 			}
 			annex_country = {
 			target = MEN
+			transfer_troops = yes
 			}
 			611 = {set_compliance = 100}
 			612 = {set_compliance = 100}
@@ -89,8 +91,585 @@ political_actions = {
         }
 	}	
 	
+	annex_can = {
+
+		icon = GFX_decision_generic_civil_support
+
+		available = {
+			CAN = {
+			is_ai = yes
+		   }
+			TAG = ENG
+
+		}
+
+		visible = {
+			
+			CAN = {
+			is_ai = yes
+			}
+			CAN = {
+			exists = yes
+			}
+			
+			TAG = ENG
+			
+		}
+
+		fire_only_once = yes
+
+		modifier = {
 	
+			
+		}
+
+		cost = 0
+		days_remove = 0
+		days_re_enable = 0
+
+		complete_effect = {
+			annex_country = {
+			target = CAN
+			transfer_troops = yes
+			}
+
+			464 = {set_compliance = 100}
+			465 = {set_compliance = 100}
+			468 = {set_compliance = 100}
+			466 = {set_compliance = 100}
+			276 = {set_compliance = 100}
+			682 = {set_compliance = 100}
+			683 = {set_compliance = 100}
+			467 = {set_compliance = 100}
+			469 = {set_compliance = 100}
+			472 = {set_compliance = 100}
+			470 = {set_compliance = 100}
+			473 = {set_compliance = 100}
+			471 = {set_compliance = 100}
+			740 = {set_compliance = 100}
+			739 = {set_compliance = 100}
+		}
+
+	}	
+
+	annex_saf = {
+
+		icon = GFX_decision_generic_civil_support
+
+		available = {
+			SAF = {
+			is_ai = yes
+		   }
+			TAG = ENG
+
+		}
+
+		visible = {
+			
+			SAF = {
+			is_ai = yes
+			}
+			SAF = {
+			exists = yes
+			}
+			
+			TAG = ENG
+			
+		}
+
+		fire_only_once = yes
+
+		modifier = {
 	
+			
+		}
+
+		cost = 0
+		days_remove = 0
+		days_re_enable = 0
+
+		complete_effect = {
+			annex_country = {
+			target = SAF
+			transfer_troops = yes
+			}
+
+			275 = {set_compliance = 100}
+			719 = {set_compliance = 100}
+			681 = {set_compliance = 100}
+			541 = {set_compliance = 100}
+		}
+
+	}	
+
+	annex_raj = {
+
+		icon = GFX_decision_generic_civil_support
+
+		available = {
+			RAJ = {
+			is_ai = yes
+		   }
+			TAG = ENG
+
+		}
+
+		visible = {
+			
+			RAJ = {
+			is_ai = yes
+			}
+			RAJ = {
+			exists = yes
+			}
+			
+			TAG = ENG
+			
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+	
+			
+		}
+
+		cost = 0
+		days_remove = 0
+		days_re_enable = 0
+
+		complete_effect = {
+			annex_country = {
+			target = RAJ
+			transfer_troops = yes
+			}
+
+			288 = {set_compliance = 100}
+			640 = {set_compliance = 100}
+			434 = {set_compliance = 100}
+			432 = {set_compliance = 100}
+			430 = {set_compliance = 100}
+			431 = {set_compliance = 100}
+			426 = {set_compliance = 100}
+			435 = {set_compliance = 100}
+			436 = {set_compliance = 100}
+			438 = {set_compliance = 100}
+			428 = {set_compliance = 100}
+			437 = {set_compliance = 100}
+			433 = {set_compliance = 100}
+			443 = {set_compliance = 100}
+			444 = {set_compliance = 100}
+			445 = {set_compliance = 100}
+			440 = {set_compliance = 100}
+			442 = {set_compliance = 100}
+			787 = {set_compliance = 100}
+			441 = {set_compliance = 100}
+			439 = {set_compliance = 100}
+			429 = {set_compliance = 100}
+			427 = {set_compliance = 100}
+			425 = {set_compliance = 100}
+			424 = {set_compliance = 100}
+			423 = {set_compliance = 100}
+			733 = {set_compliance = 100}
+		}
+
+	}	
+
+	annex_ast = {
+
+		icon = GFX_decision_generic_civil_support
+
+		available = {
+			AST = {
+			is_ai = yes
+		   }
+			TAG = ENG
+
+		}
+
+		visible = {
+			
+			AST = {
+			is_ai = yes
+			}
+			AST = {
+			exists = yes
+			}
+			
+			TAG = ENG
+			
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+	
+			
+		}
+
+		cost = 0
+		days_remove = 0
+		days_re_enable = 0
+
+		complete_effect = {
+			annex_country = {
+			target = AST
+			transfer_troops = yes
+			}
+
+			523 = {set_compliance = 100}
+			737 = {set_compliance = 100}
+			634 = {set_compliance = 100}
+			726 = {set_compliance = 100}
+			284 = {set_compliance = 100}
+			723 = {set_compliance = 100}
+			518 = {set_compliance = 100}
+			517 = {set_compliance = 100}
+			285 = {set_compliance = 100}
+			521 = {set_compliance = 100}
+			520 = {set_compliance = 100}
+			674 = {set_compliance = 100}
+			519 = {set_compliance = 100}
+			522 = {set_compliance = 100}
+		}
+
+	}	
+
+	annexx_can = {
+
+		icon = GFX_decision_generic_civil_support
+
+		available = {
+			CAN = {
+			is_ai = yes
+		   }
+			TAG = SAF
+
+		}
+
+		visible = {
+			
+			CAN = {
+			is_ai = yes
+			}
+			CAN = {
+			exists = yes
+			}
+			
+			TAG = SAF
+			
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+	
+			
+		}
+
+		cost = 0
+		days_remove = 0
+		days_re_enable = 0
+
+		complete_effect = {
+			annex_country = {
+			target = CAN
+			transfer_troops = yes
+			}
+
+			add_state_core = 464
+			add_state_core = 465
+			add_state_core = 468
+			add_state_core = 466 
+			add_state_core = 276
+			add_state_core = 682 
+			add_state_core = 683
+			add_state_core = 467
+			add_state_core = 469 
+			add_state_core = 472
+			add_state_core = 470
+			add_state_core = 473
+			add_state_core = 471
+			add_state_core = 740
+			add_state_core = 739 
+		}
+
+	}
+
+	annexx_saf = {
+
+		icon = GFX_decision_generic_civil_support
+
+		available = {
+			SAF = {
+			is_ai = yes
+		   }
+			TAG = CAN
+
+		}
+
+		visible = {
+			
+			SAF = {
+			is_ai = yes
+			}
+			SAF = {
+			exists = yes
+			}
+			
+			TAG = CAN
+			
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+	
+			
+		}
+
+		cost = 0
+		days_remove = 0
+		days_re_enable = 0
+
+		complete_effect = {
+			annex_country = {
+			target = SAF
+			transfer_troops = yes
+			}
+
+			add_state_core = 275
+			add_state_core = 719
+			add_state_core = 681
+			add_state_core = 541
+		}
+
+	}	
+
+	annex_hun = {
+
+		icon = GFX_decision_generic_civil_support
+
+		available = {
+			HUN = {
+			is_ai = yes
+		   }
+			TAG = GER
+
+		}
+
+		visible = {
+			
+			HUN = {
+			is_ai = yes
+			}
+			HUN = {
+			exists = yes
+			}
+			
+			TAG = GER
+			
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+	
+			
+		}
+
+		cost = 0
+		days_remove = 0
+		days_re_enable = 0
+
+		complete_effect = {
+			annex_country = {
+			target = HUN
+			transfer_troops = yes
+			}
+
+			add_state_core = 664
+			add_state_core = 73
+			add_state_core = 43
+			add_state_core = 154
+			add_state_core = 155
+			add_state_core = 45
+			add_state_core = 764
+		}
+	}
+	
+	annex_rom = {
+
+		icon = GFX_decision_generic_civil_support
+
+		available = {
+			ROM = {
+			is_ai = yes
+		   }
+			TAG = GER
+
+		}
+
+		visible = {
+			
+			ROM = {
+			is_ai = yes
+			}
+			ROM = {
+			exists = yes
+			}
+			
+			TAG = GER
+			
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+	
+			
+		}
+
+		cost = 0
+		days_remove = 0
+		days_re_enable = 0
+
+		complete_effect = {
+			annex_country = {
+			target = ROM
+			transfer_troops = yes
+			}
+
+			add_state_core = 76
+			add_state_core = 83
+			add_state_core = 82
+			add_state_core = 81
+			add_state_core = 46
+			add_state_core = 77
+			add_state_core = 211
+			add_state_core = 212
+			add_state_core = 48
+			add_state_core = 801
+			add_state_core = 84
+			add_state_core = 79
+			add_state_core = 78
+			add_state_core = 766
+			add_state_core = 80
+		}
+	}
+
+	annexX_hun = {
+
+		icon = GFX_decision_generic_civil_support
+
+		available = {
+			HUN = {
+			is_ai = yes
+		   }
+			TAG = ITA
+
+		}
+
+		visible = {
+			
+			HUN = {
+			is_ai = yes
+			}
+			HUN = {
+			exists = yes
+			}
+			
+			TAG = ITA
+			
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+	
+			
+		}
+
+		cost = 0
+		days_remove = 0
+		days_re_enable = 0
+
+		complete_effect = {
+			annex_country = {
+			target = HUN
+			transfer_troops = yes
+			}
+
+			add_state_core = 664
+			add_state_core = 73
+			add_state_core = 43
+			add_state_core = 154
+			add_state_core = 155
+			add_state_core = 45
+			add_state_core = 764
+		}
+	}
+
+	annexx_rom = {
+
+		icon = GFX_decision_generic_civil_support
+
+		available = {
+			ROM = {
+			is_ai = yes
+		   }
+			TAG = ITA
+
+		}
+
+		visible = {
+			
+			ROM = {
+			is_ai = yes
+			}
+			ROM = {
+			exists = yes
+			}
+			
+			TAG = ITA
+			
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+	
+			
+		}
+
+		cost = 0
+		days_remove = 0
+		days_re_enable = 0
+
+		complete_effect = {
+			annex_country = {
+			target = ROM
+			transfer_troops = yes
+			}
+
+			add_state_core = 76
+			add_state_core = 83
+			add_state_core = 82
+			add_state_core = 81
+			add_state_core = 46
+			add_state_core = 77
+			add_state_core = 211
+			add_state_core = 212
+			add_state_core = 48
+			add_state_core = 801
+			add_state_core = 84
+			add_state_core = 79
+			add_state_core = 78
+			add_state_core = 766
+			add_state_core = 80
+		}
+	}
+
 }
 
 

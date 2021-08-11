@@ -17,7 +17,6 @@ on_actions = {
 						tag = NOR
 						tag = LUX
 						tag = FIN
-						tag = MEX
 						tag = TAG
 						tag = MEN
 						tag = MAN
