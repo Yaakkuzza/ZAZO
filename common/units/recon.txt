@@ -274,7 +274,7 @@ sub_units = {
 		}
 
 		need = {
-			light_tank_equipment = 40
+			light_tank_equipment = 50
 		}
 
 		forest = {
